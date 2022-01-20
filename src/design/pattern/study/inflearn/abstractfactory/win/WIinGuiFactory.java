@@ -11,7 +11,8 @@ public class WIinGuiFactory implements GuiFactory {
     }
 
     @Override
-    public TextArea textArea() {
+    public TextArea createTextArea() {
         return new WinTextArea();
     }
+
 }
